@@ -1,0 +1,23 @@
+#######################################
+#                                     #
+#  Rice Settings Example Config File  #
+#       Written By: Jack Mechem       #
+#   (https://github.com/JackMechem)   #
+#                                     #
+#######################################
+
+# Enteries show up in the same order as config file
+entries: [ 
+  { 
+    name: Wallpaper,   # Name shown in terminal
+    command: waypaper  # Command that is run if selected. Do not add a & at the end (This will break things).
+  }, 
+  {
+    name: GTK Settings,
+    command: nwg-look
+  }, 
+  {
+    name: Hyprland Config,
+    command: kitty --hold sh -c "nvim /home/jack/.config/hypr/hyprland.conf"
+  }, 
+]
