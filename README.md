@@ -36,17 +36,20 @@ Before rice-settings can be run, a config file will need to be created at `$HOME
 rice-settings uses yaml for its config file. A good refrence for yaml syntax can be found [here](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
 All entries must be nested in a list called `entries`. Each list item is an object that contains the properties in the table below. 
 
-| Property    | Value Type  | Description                  |
+| Property (note: * means required)   | Value Type  | Description |
 |:-----------:|:------------|:-----------------------------|
-| name        | string      | Name shown in application    |
-| command     | string      | Command that is executed if the entry is selected **(Note: Do not add a & at the end of the command)**|
+| *name       | string      | Name shown in application    |
+| command     | string | Command that is executed if the entry is selected **(Note: Do not add a & at the end of the command).** *If this field is not defined, the entry will be displayed as a title* |
 
 #### Example Config File
 ```yaml
 # Enteries show up in the same order as config file
 entries: [ 
+  {
+    name: "Appearance" # If no command is given, it will be assumed to be a title.
+  },
   { 
-    name: Wallpaper,   # Name shown in terminal
+    name: Wallpaper,   # Name shown in terminal.
     command: waypaper  # Command that is run if selected. Do not add a & at the end (This will break things).
   }, 
   {

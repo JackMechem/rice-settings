@@ -1,4 +1,4 @@
-IDIR=/usr/local/include
+IDIR=/usr/local/include/**
 CC=g++
 CFLAGS=-I$(IDIR)
 
