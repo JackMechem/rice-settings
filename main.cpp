@@ -96,7 +96,7 @@ int main(int argc, char *argv[]) {
                     // assumed to be a title.
                     ent.command = "";
                     entriesParsed.push_back(ent);
-                    cout << ent.name << endl;
+                    cout << endl << ent.name << endl;
                     cout << std::string(ent.name.size(), '=') + "\n \n";
                 }
             }
