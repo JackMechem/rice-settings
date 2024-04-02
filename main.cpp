@@ -8,10 +8,12 @@
  */
 
 #include "yaml-cpp/yaml.h"
+#include <cstdlib>
 #include <cstring>
 #include <fstream>
 #include <iostream>
 #include <pwd.h>
+#include <stdlib.h>
 #include <string>
 #include <unistd.h>
 #include <vector>
@@ -20,6 +22,9 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
+
+    bool closeTerm = false;
+    string closeTermCommand;
 
     string customConfigLocation;
 
@@ -74,6 +79,13 @@ int main(int argc, char *argv[]) {
             }
         }
 
+        if (config["close-terminal-after"].as<bool>() == true) {
+            closeTerm = true;
+            closeTermCommand = config["close-terminal-command"].as<string>();
+        } else {
+            closeTerm = false;
+        }
+
         if (config["entries"]) {
             YAML::Node entries = config["entries"];
 
@@ -122,6 +134,10 @@ int main(int argc, char *argv[]) {
 
             // Clean terminal
             system("clear");
+
+            if (closeTerm) {
+                system(closeTermCommand.c_str());
+            }
         }
 
     } catch (const YAML::ParserException &ex) {
