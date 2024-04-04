@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/jack/Projects/rice-settings-gui/build",
+  "command": "/usr/bin/c++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK3__ -D__WXGTK__ -isystem /usr/lib/wx/include/gtk3-unicode-3.2 -isystem /usr/include/wx-3.2  -pthread -o CMakeFiles/rice-settings.dir/main.cpp.o -c /home/jack/Projects/rice-settings-gui/main.cpp",
+  "file": "/home/jack/Projects/rice-settings-gui/main.cpp",
+  "output": "CMakeFiles/rice-settings.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jack/Projects/rice-settings-gui/build",
+  "command": "/usr/bin/c++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK3__ -D__WXGTK__ -isystem /usr/lib/wx/include/gtk3-unicode-3.2 -isystem /usr/include/wx-3.2  -pthread -o CMakeFiles/rice-settings.dir/configFile.cpp.o -c /home/jack/Projects/rice-settings-gui/configFile.cpp",
+  "file": "/home/jack/Projects/rice-settings-gui/configFile.cpp",
+  "output": "CMakeFiles/rice-settings.dir/configFile.cpp.o"
+}
+]

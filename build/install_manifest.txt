@@ -1,0 +1,2 @@
+/usr/local/bin/rice-settings
+/usr/share/applications/Rice Settings.desktop

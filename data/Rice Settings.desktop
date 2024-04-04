@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Rice Settings
+Comment=Settings Manager For Custom Linux Desktops
+Exec=rice-settings
+Terminal=false
+Type=Application

@@ -1,0 +1,7 @@
+/home/jack/Projects/rice-settings-gui/build/CMakeFiles/rice-settings.dir
+/home/jack/Projects/rice-settings-gui/build/CMakeFiles/edit_cache.dir
+/home/jack/Projects/rice-settings-gui/build/CMakeFiles/rebuild_cache.dir
+/home/jack/Projects/rice-settings-gui/build/CMakeFiles/list_install_components.dir
+/home/jack/Projects/rice-settings-gui/build/CMakeFiles/install.dir
+/home/jack/Projects/rice-settings-gui/build/CMakeFiles/install/local.dir
+/home/jack/Projects/rice-settings-gui/build/CMakeFiles/install/strip.dir
