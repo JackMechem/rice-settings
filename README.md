@@ -1,4 +1,4 @@
-# rice-settings (WIP)
+# rice-settings (TUI)
 > A configurable terminal settings application written in c++ made to make configuration files and apps more accessible.
 
 ## Installation
