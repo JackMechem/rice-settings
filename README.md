@@ -1,5 +1,4 @@
 # Rice Settings With GUI (Using WxWidgets)
+> Disclaimer: I started this project as a part of my c++ learning journey. Please bear with the poorly written code!!
 
-### Readme Comming Soon!
-
-### See tui branch to see old readme
+### Full README Comming Soon (See the tui branch for the old readme).
